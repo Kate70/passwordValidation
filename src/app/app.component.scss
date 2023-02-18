@@ -1,0 +1,45 @@
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+  h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia, serif;
+  }
+  .card {
+    background-color:#a2ced6
+  }
+  .control-label{
+  margin: 0 auto;
+    padding: 12px ;
+    color: #eee;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+    font-size: 26px;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
+  .form-group{
+    margin: 0 auto;
+  }
+  .li{
+    list-style: none;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
